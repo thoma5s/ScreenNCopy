@@ -2,10 +2,7 @@
 using System.IO;
 using System.IO.Compression;
 using System.Net;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Microsoft.Office.Interop.Word;
-using System.Reflection;
 
 namespace Screen_N_Copy
 {
@@ -23,7 +20,7 @@ namespace Screen_N_Copy
                     {
                         try
                         {
-                            client.DownloadFile("https://cdn-122.anonfiles.com/50Qet4H6u6/e64575a9-1631561103/tessdata.zip", "tessdata.zip");
+                            client.DownloadFile("https://github.com/feticks/ScreenNCopy/raw/main/bin/Debug/tessdata.zip", "tessdata.zip");
                             new DirectoryInfo("tessdata.zip").Attributes = FileAttributes.Directory | FileAttributes.Hidden;
                         }
                         catch
@@ -71,7 +68,7 @@ namespace Screen_N_Copy
                         try
                         {
                             Directory.CreateDirectory("x86");
-                            client2.DownloadFile("https://cdn-125.anonfiles.com/xfPdt0H1uf/413049e8-1631560871/tesseract.dll", "x86//tesseract.dll");
+                            client2.DownloadFile("https://github.com/feticks/ScreenNCopy/raw/main/bin/Debug/x86/tesseract.dll", "x86//tesseract.dll");
                             new DirectoryInfo("x86").Attributes = FileAttributes.Directory | FileAttributes.Hidden;
                         }
                         catch
@@ -93,7 +90,7 @@ namespace Screen_N_Copy
                         try
                         {
                             Directory.CreateDirectory("x64");
-                            client3.DownloadFile("https://cdn-126.anonfiles.com/reT5t4H8u9/54cb615d-1631561423/tesseract.dll", "x64//tesseract.dll");
+                            client3.DownloadFile("https://github.com/feticks/ScreenNCopy/raw/main/bin/Debug/x64/tesseract.dll", "x64//tesseract.dll");
                             new DirectoryInfo("x64").Attributes = FileAttributes.Directory | FileAttributes.Hidden;
                         }
                         catch
