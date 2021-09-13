@@ -8,3 +8,5 @@ ScreenNCopy lets you take a screenshot of a specific location on your screen whi
 Spell-check used: https://norvig.com/spell-correct.html
 
 OCR used: https://tesseract.patagames.com/Downloads/
+
+![alt text](https://pyimagesearch.com/wp-content/uploads/2017/06/example_01.png)
