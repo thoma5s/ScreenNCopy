@@ -11,4 +11,4 @@ OCR used: https://tesseract.patagames.com/Downloads/
 
 ![alt text](https://pyimagesearch.com/wp-content/uploads/2017/06/example_01.png)
 
-This is made for educational purposes only, I am not responsible for any actions that you make using this software.
+This is made for educational purposes only, I am not responsible for any actions made using this software.
